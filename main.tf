@@ -95,7 +95,7 @@ resource "azurerm_virtual_machine" "catapp" {
   delete_os_disk_on_termination = "true"
 
   tags = {
-    Billing = "12345"
+    Billable = "12345"
     Department = "Sales"
   }
   
